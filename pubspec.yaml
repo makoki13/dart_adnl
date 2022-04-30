@@ -1,0 +1,8 @@
+name: adnl
+description: adnl implementation
+version: 0.0.1
+author: makoki
+
+dependencies:
+  test: ^1.6.0
+  ffigen: ^4.1.2
