@@ -1,8 +1,12 @@
 name: adnl
 description: adnl implementation
 version: 0.0.1
-author: makoki
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
 
 dependencies:
-  test: ^1.6.0
+  crypto: ^3.0.2
+  cryptography: ^2.0.5
   ffigen: ^4.1.2
+  randombytes: ^0.1.1

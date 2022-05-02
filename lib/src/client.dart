@@ -1,5 +1,10 @@
 // as client.ts
 
+enum ADNLClientState { CONNECTING, OPEN, CLOSING, CLOSED }
+enum ADNLSocketType {tcp4, udp4, tcp6, udp6 }
+
+ADNLSocketType ADNLClientOptions;
+
 class ADNLClient {
   /*
     ***** private host: string
